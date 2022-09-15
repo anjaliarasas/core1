@@ -1,0 +1,22 @@
+a {
+  color:black;
+}
+body {
+  background-color: #FBA6A6;
+}
+H1 {
+  background: WHITE;
+  border: 3px solid BLACK;
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+H1 {
+  text-align: center; }
+h1 {
+  color: BLACK;
+  font-size: 60px;
+  font-family: 'Bodoni Moda', serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
