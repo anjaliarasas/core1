@@ -3,3 +3,29 @@ a {
   color:pink;
   background:blue;
 }
+
+h1{
+  text-decoration: none;
+  color: #000;
+  background-color: #f2e1ff;
+  transition: all 0.1s ease;
+}
+
+h1:hover {
+  background-color: rgb(228,147,169);
+background: radial-gradient(circle, rgba(228,147,169,1) 0%, rgba(237,171,192,1) 31%, rgba(169,195,244,1) 100%);;
+}
+
+.gradient-fill {
+  background: -webkit-linear-gradient(#e128ff, #ff5151);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.gradient-fill:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
