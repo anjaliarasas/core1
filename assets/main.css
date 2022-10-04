@@ -1,3 +1,6 @@
+head {
+  text-align: center;
+}
 
 a {
   color:black;
@@ -42,15 +45,6 @@ body {
   cursor: help;
 }
 
-ul {
-  display:list-item;
-    list-style: none;
-}
-
-li:before {
-  float: left;
-    content: "\2665";
-    color: black
-    no-repeat center left;
-    display: inline;
+h5 {
+  text-align: center
 }

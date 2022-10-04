@@ -1,3 +1,10 @@
-head {
+
+h1 {
   text-align: center;
+  color: BLACK;
+  font-size: 30px;
+  font-family: 'Bodoni Moda', serif;
+  margin: 300px;
+  padding: 5px;
+  background-color: #FBA6A6;
 }
