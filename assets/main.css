@@ -1,7 +1,6 @@
 
 a {
-  color:pink;
-  background:blue;
+  color:black;
 }
 
 h1{
@@ -19,24 +18,22 @@ background: radial-gradient(circle, rgba(228,147,169,1) 0%, rgba(237,171,192,1) 
 
 h2 {
   text-align: center;
+  font-family: 'Bodoni Moda', serif;
   font-size: 20px;
+  outline-color: black
+  color: white
+}
+body {
+ background-image: url("imgs/background.png");
+ background-size: contain;
+ width: 1000px
+ height: 720px
+ background-repeat: no-repeat;
 }
 
-.gradient-fill {
-  background: -webkit-linear-gradient(#e128ff, #ff5151);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.8s ease;
-}
 
-.gradient-fill:hover {
-  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
-}
 h1 {
-  color: black;
+  color: pink;
   font-size: 60px;
   font-family: 'Passions Conflict', serif;
 }
@@ -46,11 +43,14 @@ body {
 }
 
 ul {
-  list-style-type: none;
-  position: relative;
+  display:list-item;
+    list-style: none;
 }
 
-ul li:before {
+li:before {
+  float: left;
     content: "\2665";
-    color: Black;
+    color: black
+    no-repeat center left;
+    display: inline;
 }
