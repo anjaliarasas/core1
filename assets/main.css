@@ -42,7 +42,7 @@ h2 {
 }
 
 h1 {
-  text-align: center
+  text-align: center;
   cursor: url("imgs/heart.png"), auto;
 
 }
