@@ -1,0 +1,150 @@
+.rectangle {
+ width: 65rem;
+ height: 35rem;
+ background: pink;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 65rem;
+  height: 10rem;
+  background:grey;
+}
+
+.ellipse6 {
+  position: absolute;
+width: 261.87px;
+height: 169.93px;
+background: #BDAA9D;
+transform: matrix(0.85, 0.52, -0.53, 0.85, 0, 0);
+border-radius: 50%;
+left: 310px;
+top: 300px;
+}
+
+.ellipse {
+  position: absolute;
+  width: 21rem;
+  height: 17rem;
+  background: #CEC5B6;
+  border-radius: 50%;
+  left: 130px;
+  top: 390px;
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 20rem;
+  height: 22rem;
+  background: #CEC5B6;
+  border-radius: 50%;
+  left: 95px;
+  top: 300px;
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 203px;
+  height: 202px;
+  background: #A08D80;
+  border-radius: 50%;
+  left: 80px;
+  top: 500px;
+}
+
+.ellipse4 {
+  position: absolute;
+width: 278.28px;
+height: 198.32px;
+background: #BDAA9D;
+transform: matrix(0.98, 0.18, -0.18, 0.98, 0, 0);
+border-radius: 50%;
+left: 380px;
+top: 500px;
+}
+
+.ellipse5 {
+  position: absolute;
+width: 261.87px;
+height: 169.93px;
+background: #A08D80;
+transform: matrix(0.85, 0.52, -0.53, 0.85, 0, 0);
+border-radius: 50%;
+left: 100px;
+top: 340px;
+}
+
+.ellipse8 {
+position: absolute;
+width: 135px;
+height: 137px;
+background: #CEC5B6;
+border-radius: 50%;
+left: 300px;
+top: 30px;
+}
+
+.ellipse9 {
+  position: absolute;
+width: 136px;
+height: 137px;
+background: #A08D80;
+border-radius: 50%;
+left: 60px;
+top: 50px;
+}
+
+.ellipse7 {
+  position: absolute;
+width: 300px;
+height: 310px;
+background: #BDAA9D;
+border-radius: 50%;
+left: 100px;
+top: 60px;
+}
+
+.ellipse10 {
+  position: absolute;
+width: 123px;
+height: 109px;
+background: #A08D80;
+border-radius: 50%;
+left: 230px;
+top: 220px;
+}
+
+.ellipse11 {
+  position: absolute;
+width: 30px;
+height: 28px;
+background: #2B2A2C;
+border-radius: 50%;
+left: 190px;
+top: 220px;
+}
+
+.ellipse12 {
+  position: absolute;
+width: 30px;
+height: 28px;
+background: #2B2A2C;
+border-radius: 50%;
+left: 350px;
+top: 220px;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #2B2A2C;
+left: 280px;
+top: 260px;
+}
+
+body {
+  text-align: center
+}
