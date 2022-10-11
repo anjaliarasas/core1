@@ -273,7 +273,7 @@ left: 180px;
 top: 400px;
 }
 
-.tail:hover +.ellipse10:hover {
+.tail:hover {
   transform: rotate(-40deg);
 }
 

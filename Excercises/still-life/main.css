@@ -1,14 +1,14 @@
 .rectangle {
- width: 65rem;
+ width: 82rem;
  height: 35rem;
- background: pink;
+ background: white;
 }
 
 .rectangle2 {
   position: absolute;
-  width: 65rem;
+  width: 82rem;
   height: 10rem;
-  background:grey;
+  background:pink;
 }
 
 .ellipse6 {
