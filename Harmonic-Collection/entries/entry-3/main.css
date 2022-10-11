@@ -1,0 +1,285 @@
+body {
+  background: #FE9FC1;
+}
+.rectangle {
+position: absolute;
+width: 2000px;
+height: 180px;
+background: #D9D9D9;
+left: -10px;
+top: 555px;
+}
+
+.ellipse {
+position: absolute;
+width: 211px;
+height: 200px;
+background: #FFFDFD;
+left: 200px;
+top: 260px;
+border-radius: 50%;
+}
+
+.rectangle3 {
+  position: absolute;
+width: 2000px;
+height: 200px;
+background: #5D785E;
+border: 3px solid #5D785E;
+left: -10px;
+top: 490px;
+transform: rotate(3deg);
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 196px;
+  height: 236px;
+  background: #FFFFFF;
+  left: 205px;
+  top: 270px;
+  border-radius: 50%;
+}
+
+.ellipse3 {
+  position: absolute;
+width: 167px;
+height: 139px;
+background: #FFFFFF;
+left: 255px;
+top: 370px;
+border-radius: 50%;
+}
+
+.ellipse4 {
+  position: absolute;
+width: 147px;
+height: 139px;
+background: #FFFFFF;
+left: 205px;
+top: 370px;
+border-radius: 50%;
+}
+
+
+
+.ellipse5 {
+  position: absolute;
+width: 147px;
+height: 148px;
+background: #CDC9C9;
+left: 225px;
+top: 375px;
+border-radius: 50%;
+}
+
+.ellipse6 {
+  position: absolute;
+width: 182.65px;
+height: 168.94px;
+background: #FFFFFF;
+transform: rotate(98.09deg);
+left: 215px;
+top: 375px;
+border-radius: 50%;
+}
+
+.ellipse7 {
+  position: absolute;
+width: 280px;
+height: 280px;
+background: #FFFDFD;
+left: 170px;
+top: 435px;
+border-radius: 50%;
+}
+
+.ellipse8 {
+  position: absolute;
+width: 119px;
+height: 175px;
+background: linear-gradient(0deg, #FFFDFD, #FFFDFD), linear-gradient(0deg, #FFFDFD, #FFFDFD), #FFFDFD;
+left: 160px;
+top: 525px;
+border-radius: 50%;
+}
+
+.ellipse9 {
+  position: absolute;
+width: 119px;
+height: 175px;
+background: linear-gradient(0deg, #FFFDFD, #FFFDFD), linear-gradient(0deg, #FFFDFD, #FFFDFD), #FFFDFD;
+left: 350px;
+top: 530px;
+border-radius: 50%;
+}
+
+.ellipse10 {
+  position: absolute;
+width: 34px;
+height: 35px;
+background: #1E1E1E;
+left: 340px;
+top: 400px;
+border-radius: 50%;
+}
+
+.ellipse11 {
+  position: absolute;
+width: 34px;
+height: 35px;
+background: #1E1E1E;
+left: 240px;
+top: 400px;
+border-radius: 50%;
+}
+
+.ellipse12:hover {
+transform: rotate(40deg);
+}
+
+.ellipse13:hover {
+transform: rotate(-40deg);
+}
+
+.ellipse12 {
+  position: absolute;
+width: 106.27px;
+height: 143.86px;
+background: linear-gradient(0deg, #1E1E1E, #1E1E1E), #1E1E1E;
+transform: rotate(20.7deg);
+left: 170px;
+top: 270px;
+border-radius: 50%;
+}
+
+.ellipse13 {
+  position: absolute;
+width: 106.27px;
+height: 143.86px;
+background: linear-gradient(0deg, #1E1E1E, #1E1E1E), #1E1E1E;
+transform: rotate(-17.1deg);
+left: 340px;
+top: 270px;
+border-radius: 50%;
+}
+
+.ellipse14 {
+position: absolute;
+width: 60px;
+height: 35px;
+background: #1E1E1E;
+left: 280px;
+top: 440px;
+border-radius: 50%;
+}
+
+.ellipse15 {
+  position: absolute;
+width: 61px;
+height: 67px;
+background: #FE9FC1;
+left: 270px;
+top: 470px;
+border-radius: 50%;
+}
+
+.rectangle2 {
+box-sizing: border-box;
+position: absolute;
+width: 537.84px;
+height: 203.34px;
+background: #FFFDFD;
+border: 7px solid #000000;
+transform: rotate(7.71deg);
+left: 700px;
+top: 200px;
+}
+
+h1{
+position: absolute;
+width: 537.84px;
+height: 203px;
+font-family: 'Imperial Script';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 116px;
+color: #1E1E1E;
+transform: rotate(7.71deg);
+left: 720px;
+top: 150px;
+}
+
+
+.line {
+position: absolute;
+width: 200px;
+height: 0px;
+border: 4px solid #000000;
+transform: rotate(-90deg);
+left: 670px;
+top: 100px;
+}
+
+.line2 {
+position: absolute;
+width: 300px;
+height: 0px;
+border: 4px solid #000000;
+transform: rotate(-90deg);
+left: 1000px;
+top: 100px;
+}
+
+.circle {
+  position: absolute;
+width: 88px;
+height: 87px;
+background: #FAF1A4;
+border-radius: 50%;
+left: 100px;
+top: 50px;
+}
+
+.wink {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+background: black;
+    left: 235px;
+    top: 410px;
+    display: none;
+}
+
+.wink2 {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+background: black;
+    left: 335px;
+    top: 410px;
+    display: none;
+}
+
+.tail {
+  position: absolute;
+width: 40px;
+height: 201px;
+background: white;
+transform: rotate(-24.17deg);
+border-radius: 50%;
+left: 180px;
+top: 400px;
+}
+
+.tail:hover +.ellipse10:hover {
+  transform: rotate(-40deg);
+}
+
+h3 {
+    position: absolute;
+  left: 1300px;
+  top: 650px;
+  color: BLACK;
+}
