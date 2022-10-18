@@ -16,9 +16,9 @@ H1 {
 H2 {
   background-color: WHITE;
   font-family: 'Crimson Text', serif;
-  font-size: 22px;
+  font-size: 17px;
   padding: 50px;
-  color: BLACK;
+  color: pink;
   margin: 0 auto;
   text-align: center;
 }
@@ -60,9 +60,12 @@ border-radius: 50%;
 
   @media (min-width: 1200px) {
       H2 {
-        background-color: PINK;
+        background-color: black;
         font-COLOR: WHITE;
         font-size: 24px;
         font-family: 'Dancing Script', cursive;
+      }
+      html {
+        background-color: pink;
       }
     }

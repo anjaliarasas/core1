@@ -3,6 +3,7 @@ a {
 }
 body {
   background-color: #FBA6A6;
+  text-align: left;
 }
 H1 {
   background: WHITE;
@@ -19,7 +20,37 @@ h1 {
   font-size: 60px;
   font-family: 'Bodoni Moda', serif;
   text-shadow: 4px 4px 4px #aaa;
+
 }
 h3 {
   text-align: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding:10px;
+  background-color:pink;
+  min-height: 400px;
+  text-align:  center;
+  height: auto;
+}
+
+
+* {box-sizing:  border-box;}
+.item {
+  margin: 10px 10px;
+  width: 700px;
+
+}
+
+.item1 {
+}
+.item2 {
+}
+.item3 {
+}
+.item4 {
 }
