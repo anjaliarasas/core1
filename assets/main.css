@@ -21,13 +21,28 @@ background: radial-gradient(circle, rgba(228,147,169,1) 0%, rgba(237,171,192,1) 
   transition: background-color 1s;
 }
 
-h3 {
+h4 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
+  outline-color: black;
+  margin-left: 200px;
+}
+
+H3 {
   text-align: center;
   font-family: 'Bodoni Moda', serif;
   font-size: 20px;
-  outline-color: black
-  color: white
+  outline-color: black;
 }
+
+.still {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
+  outline-color: black;
+  margin-left: 1100px;
+  top: 200px;
+}
+
 body {
  background-image: url("imgs/background.png");
  background-size: contain;
@@ -49,8 +64,8 @@ h1 {
 
 }
 
-h4 {
-  text-align: center;
+h5 {
+  text-align: left;
   cursor: url("imgs/rose.png"), auto;
 
 }

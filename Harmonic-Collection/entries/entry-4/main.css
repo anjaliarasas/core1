@@ -1,0 +1,68 @@
+HTML {
+  background-color: BEIGE
+}
+
+H1 {
+    background: PINK;
+    border: 10px solid BLACK;
+    margin: 10px;
+  text-align: center;
+  color: BLACK;
+  font-size: 40px;
+  font-family: 'Bodoni Moda', serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+H2 {
+  background-color: WHITE;
+  font-family: 'Crimson Text', serif;
+  font-size: 22px;
+  padding: 50px;
+  color: BLACK;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.CIRCLE {
+  position: absolute;
+width: 20px;
+height: 20px;
+background: #000000;
+border-radius: 50%;
+}
+
+
+
+  @media (min-width: 1000px) {
+    H1 {
+      font-size: 50px;
+      background-color: WHITE;
+      font-family:'Dancing Script', cursive
+    }
+  }
+
+    @media (mIN-width: 1200px) {
+      H1 {
+        font-size: 50px;
+        background-color: PINK;
+        font-family:'Playfair Display', serif;
+      }
+    ]
+
+      @media (min-width: 1000px) {
+            H2 {
+              font-size: 16px;
+              background-color: WHITE;
+                font-COLOR: PINK;
+              font-family:'Bodoni Moda', serif;
+            }
+          }
+
+  @media (min-width: 1200px) {
+      H2 {
+        background-color: PINK;
+        font-COLOR: WHITE;
+        font-size: 24px;
+        font-family: 'Dancing Script', cursive;
+      }
+    }
