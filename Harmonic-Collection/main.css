@@ -1,3 +1,7 @@
+HTML {
+  cursor: url("../ASSETS/imgs/pawprint.png"), auto;
+}
+
 a {
   color:black;
 }
@@ -6,43 +10,39 @@ body {
   text-align: left;
 }
 H1 {
-  background: WHITE;
-  border: 3px solid BLACK;
-  margin: 10px;
-  padding: 5px;
-  font-family: monospace;
-  font-size: 24px;
+  text-align: left;
+margin-left: 40px;
 }
-H1 {
-  text-align: center; }
+
 h1 {
-  color: BLACK;
+  color: black;
   font-size: 60px;
   font-family: 'Bodoni Moda', serif;
-  text-shadow: 4px 4px 4px #aaa;
-
-}
-h3 {
-  text-align: center;
+  padding: NONE
 }
 
+h5 {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bodoni Moda', serif;
+}
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   padding:10px;
-  background-color:pink;
+  background-color:#FBA6A6;
   min-height: 400px;
-  text-align:  center;
   height: auto;
 }
 
 
 * {box-sizing:  border-box;}
 .item {
-  margin: 10px 10px;
-  width: 700px;
+  margin: 6px;
+  width: 400px;
 
 }
 

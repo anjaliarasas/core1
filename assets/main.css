@@ -1,5 +1,12 @@
 Header {
-  text-align: center;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  position: inherit;
+}
+
+HTML {
+  cursor: url("imgs/rose.png"), auto;
 }
 
 a {
@@ -28,11 +35,26 @@ h4 {
   margin-left: 200px;
 }
 
+h5 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
+  outline-color: black;
+  text-align: center;
+}
+
 H3 {
   text-align: center;
   font-family: 'Bodoni Moda', serif;
   font-size: 20px;
   outline-color: black;
+}
+
+li {
+  list-style: none
+}
+
+ul {
+  text-align: center;
 }
 
 .still {
@@ -61,15 +83,71 @@ h2 {
 h1 {
   text-align: center;
   cursor: url("imgs/rose.png"), auto;
-
 }
 
+.imghover:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px)
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: scale(1.1) rotate(4deg);
+ transform:  rotate(4deg);
+}
+
+.img2hover:hover {
+  -webkit-transform: perspective(1px)
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: scale(1.1) rotate(4deg);
+ transform:  rotate(4deg);
+}
+
+.img3hover:hover {
+  -webkit-transform: perspective(1px)
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: scale(1.1) rotate(-4deg);
+ transform: rotate(-4deg);
+}
+
+
 h5 {
-  text-align: left;
   cursor: url("imgs/rose.png"), auto;
 
 }
 
 html {
   cursor: url("imgs/rose.png"), auto;
+}
+
+.excercises {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:20px;
+    background-color:#NONE;
+    height: auto;
+  }
+
+.excercise1 {
+}
+.excercise2 {
+}
+.excercise3{
+
+}
+.excercise4 {
 }
