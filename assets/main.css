@@ -54,13 +54,6 @@ ul {
   text-align: center;
 }
 
-.bear2 {
-  margin-top:100px;
-}
-
-.bear4 {
-  margin-top:100px;
-}
 
 .still {
   font-family: 'Bodoni Moda', serif;
@@ -88,6 +81,14 @@ h2 {
 h1 {
   text-align: center;
   cursor: url("imgs/sparkle.png"), auto;
+}
+
+h4 {
+text-align: center;
+}
+
+H5 {
+  text-align: center;
 }
 
 .OTHER {
@@ -118,9 +119,9 @@ h1 {
 
 .imghover {
   display: flex;
-  justify-content: space-AROUND;
+  justify-content: space-evenly;
   flex-direction: row;
-  padding:10px;
+  padding:0px;
   background-color:#NONE;
   height: auto;
 }
@@ -196,7 +197,6 @@ html {
 .excercise1 {
 }
 .excercise2 {
-  margin-top:100px;
   margin-right: 130px;
 }
 .excercise3{
@@ -258,6 +258,8 @@ html {
   transform: translateY(8px);
 }
 }
+
+
 
 @media (min-width: 992px) {
 
