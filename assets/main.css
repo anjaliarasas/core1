@@ -1,12 +1,12 @@
 Header {
-  text-align: left;
-  margin: 0px;
-  padding: 0px;
-  position: inherit;
+  text-align: center;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 60px;
+  color: pink;
 }
 
 HTML {
-  cursor: url("imgs/rose.png"), auto;
+  cursor: url("imgs/sparkle.png"), auto;
 }
 
 a {
@@ -87,7 +87,7 @@ h2 {
 
 h1 {
   text-align: center;
-  cursor: url("imgs/rose.png"), auto;
+  cursor: url("imgs/sparkle.png"), auto;
 }
 
 .OTHER {
@@ -153,7 +153,7 @@ h1 {
   }
 }
 
-.LI:hover {
+.dog:hover {
   display: flex;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -166,7 +166,7 @@ h1 {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.img2hover:hover, .img2hover:focus, .img2hover:active {
+.dog:hover, .dog:focus, .dog:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
@@ -176,12 +176,12 @@ h1 {
 
 
 h5 {
-  cursor: url("imgs/rose.png"), auto;
+  cursor: url("imgs/sparkle.png"), auto;
 
 }
 
 html {
-  cursor: url("imgs/rose.png"), auto;
+  cursor: url("imgs/sparkle.png"), auto;
 }
 
 .excercises {

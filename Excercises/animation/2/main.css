@@ -1,0 +1,24 @@
+@keyframes transitionbig {
+  0% {
+    transform: scale(0.1);
+  }
+  25% {
+    transform: scale(0.3)
+  }
+  50% {
+    transform: scale(0.5)
+  }
+  75% {
+    transform: scale(0.7)
+  }
+  100% {
+    transform: scale(0.9)
+  }
+}
+
+body {
+  animation-name: transitionbig;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: all .2s ease-in-out;
+}

@@ -1,0 +1,29 @@
+h2 {
+  border: 1px solid black;
+  outline: 5px dotted pink;
+}
+
+div.a {
+  border: 1px solid pink;
+  outline: 2px dashed black;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1,h2,div.a {
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: all .1s ease-in-out;
+  animation-direction: alternate;
+}

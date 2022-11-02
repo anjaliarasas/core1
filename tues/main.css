@@ -1,0 +1,24 @@
+@keyframes yinyangSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+#fill {
+  animation: yinyangfill 5s;
+  height:500px;
+}
+
+#yin-yang {
+  animation: yinyangSpin 5s ease-out infinite;
+  height:500px;
+}
+
+#yin-yang:hover {
+    animation-play-state: paused;
+  }
