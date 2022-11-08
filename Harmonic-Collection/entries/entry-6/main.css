@@ -1,0 +1,303 @@
+.container {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+H1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100PX;
+  margin-top: 0PX;
+  margin-bottom: 0PX;
+}
+H1:hover {
+  background-color: WHITE;
+}
+
+H2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 20PX;
+  color: black;
+}
+
+
+.ball1:hover {
+  opacity: 0.25;
+}
+.ball2:hover {
+  opacity: 0.25;
+}
+.ball3:hover {
+  opacity: 0.25;
+}
+.ball4:hover {
+  opacity: 0.25;
+}
+.ball5:hover {
+  opacity: 0.25;
+}
+
+.container2 {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ball6:hover {
+  opacity: 0.25;
+}
+.ball7:hover {
+  opacity: 0.25;
+}
+.ball8:hover {
+  opacity: 0.25;
+}
+.ball9:hover {
+  opacity: 0.25;
+}
+.ball10:hover {
+  opacity: 0.25;
+}
+
+.container3 {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ball11:hover {
+  opacity: 0.25;
+}
+.ball12:hover {
+  opacity: 0.25;
+}
+.ball13:hover {
+  opacity: 0.25;
+}
+.ball14:hover {
+  opacity: 0.25;
+}
+.ball15:hover {
+  opacity: 0.25;
+}
+
+.container4 {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ball16:hover {
+  opacity: 0.25;
+}
+.ball17:hover {
+  opacity: 0.25;
+}
+.ball18:hover {
+  opacity: 0.25;
+}
+.ball19:hover {
+  opacity: 0.25;
+}
+.ball20:hover {
+  opacity: 0.25;
+}
+
+.container5 {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ball21:hover {
+  opacity: 0.25;
+}
+.ball22:hover {
+  opacity: 0.25;
+}
+.ball23:hover {
+  opacity: 0.25;
+}
+.ball24:hover {
+  opacity: 0.25;
+}
+.ball25:hover {
+  opacity: 0.25;
+}
+
+.container6 {
+  display: flex;
+  align-items: flex-end
+   flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:-20px;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ball1 {
+  animation: rotation 3s infinite linear;
+}
+.ball2 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball3 {
+  animation: rotation 3s infinite linear;
+}
+.ball4 {
+  animation: rotation 3s infinite linear;
+}
+.ball5 {
+  animation: rotation 3s infinite linear;
+}
+.ball6 {
+  animation: rotation 3s infinite linear;
+}
+.ball7 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball8 {
+  animation: rotation 3s infinite linear;
+}
+.ball9 {
+  animation: rotation 3s infinite linear;
+}
+.ball10 {
+  animation: rotation 3s infinite linear;
+}
+.ball11 {
+  animation: rotation 3s infinite linear;
+}
+.ball12 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball13 {
+  animation: rotation 3s infinite linear;
+}
+.ball14 {
+  animation: rotation 3s infinite linear;
+}
+.ball15 {
+  animation: rotation 3s infinite linear;
+}
+.ball16 {
+  animation: rotation 3s infinite linear;
+}
+.ball17 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball18 {
+  animation: rotation 3s infinite linear;
+}
+.ball19 {
+  animation: rotation 3s infinite linear;
+}
+.ball20 {
+  animation: rotation 3s infinite linear;
+}
+.ball21 {
+  animation: rotation 3s infinite linear;
+}
+.ball22 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball23 {
+  animation: rotation 3s infinite linear;
+}
+.ball24 {
+  animation: rotation 3s infinite linear;
+}
+.ball25 {
+  animation: rotation 3s infinite linear;
+}
+.ball26 {
+  animation: rotation 3s infinite linear;
+}
+.ball27 {
+  animation:
+  rotation 3s infinite linear;
+}
+.ball28 {
+  animation: rotation 3s infinite linear;
+}
+.ball29 {
+  animation: rotation 3s infinite linear;
+}
+.ball30 {
+  animation: rotation 3s infinite linear;
+}
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ffe6e6;
+  }
+  25% {
+    background: #cce6ff;
+  }
+  50% {
+    background: #ffb3cc;
+  }
+  75% {
+    background: #ddccff;
+  }
+  100% {
+    background: #ffffcc;
+  }
+}
+
+body {
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
