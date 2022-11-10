@@ -1,0 +1,27 @@
+html {
+  background-color: #898989
+}
+
+.text1 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 400px;
+  color: white;
+}
+
+.text2 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 100px;
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}

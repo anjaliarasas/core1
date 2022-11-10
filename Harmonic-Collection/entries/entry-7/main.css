@@ -1,0 +1,82 @@
+html {
+  background-color: #898989
+}
+
+.text1 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 400px;
+  color: white;
+}
+
+
+.text2 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 400px;
+  color: white;
+}
+
+.collar {
+  margin-top: 500px;
+  margin-left: 300px;
+}
+
+.text3 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  color: white;
+  }
+
+.text4 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 500px;
+  color: white;
+  }
+
+.text5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin-top: 200px;
+  color: white;
+  }
+
+.work {
+  margin-left: 200px;
+  text-align: left;
+  margin-top: 600px;
+}
+
+
+.doghousetxt {
+  margin-right: 200px;
+  text-align: right;
+}
+
+.doghouse {
+  text-align: right;
+  margin-top: 300px;
+  margin-right: 200px;
+}
+
+.figmasketch {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 600px;
+  text-align: center;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}

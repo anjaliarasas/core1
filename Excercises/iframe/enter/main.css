@@ -1,0 +1,28 @@
+.iframe {
+text-align: center;
+}
+
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: black;
+  }
+  25% {
+    background: white;
+  }
+  50% {
+    background: black;
+  }
+  75% {
+    background: white;
+  }
+  100% {
+    background: black;
+  }
+}
+
+html {
+  animation-name: backgroundColorPalette;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}

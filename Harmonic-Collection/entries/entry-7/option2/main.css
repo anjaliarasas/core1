@@ -1,0 +1,62 @@
+html {
+  background-color: #898989
+}
+
+.text1 {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 200px;
+  color: white;
+  margin-left: 300px;
+}
+
+.doghouse {
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.text2 {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: 36px;
+  margin-top: 200px;
+  color: white;
+  margin-left: 800px;
+}
+
+.text3 {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 200px;
+  color: white;
+  margin-left: 800px;
+}
+
+.text4 {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 200px;
+  color: white;
+  margin-left: 400px;
+  margin-right: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content:
+  flex-direction: row;
+  padding:10px;
+  height: auto;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
