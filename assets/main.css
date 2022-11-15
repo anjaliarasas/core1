@@ -128,9 +128,9 @@ H5 {
 
 .img3hover {
   display: block;
-  justify-content: space-AROUND;
+  justify-content: space-evenly;
   flex-direction: row;
-  margin:20px;
+  margin:10px;
   background-color:#NONE;
   height: auto;
 }
