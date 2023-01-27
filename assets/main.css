@@ -131,6 +131,7 @@ H5 {
   justify-content: space-evenly;
   flex-direction: row;
   margin:10px;
+  margin-left: 80px;
   background-color:#NONE;
   height: auto;
 }
@@ -197,9 +198,13 @@ html {
 .excercise1 {
 }
 .excercise2 {
-  margin-right: 130px;
+  margin-left: 40px;
 }
 .excercise3{
+  margin-left: 150px;
+}
+.excercise4 {
+  margin-left: 140px;
 }
 
 .excercise1:hover {
